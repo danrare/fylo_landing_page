@@ -1,0 +1,231 @@
+@media(min-width:1200px) {
+    header{
+        padding:20px 50px;
+    }
+
+    h2{
+        font-size: 2rem;
+        padding:0;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size:13px;
+    }
+
+    input.email-signup,input.btn-signup{
+        height: 40px;
+    }   
+
+    input.email-signup{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    input.email-signup:invalid+.error-message1{
+        top:65px;
+    }
+
+    input.btn-signup{
+        width: 70%;
+        height: 40px;
+        border-radius: 3px;
+    }
+    
+    .logo-image{
+        width:150px;
+    }
+
+    .image-top, .image-middle {
+        width: 100%;
+    }
+
+    .signup div{
+        margin: 20px 0 0 0;
+    }
+
+    div.signup>form{
+        display: block;
+    }
+
+    li{
+        a{
+            font-size: 0.95rem;
+            padding:25px;
+        }
+        
+    }
+
+    #top-section{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 4%;
+        width: 100%;
+        margin: 0 auto 10em;
+    }
+
+    .top-image{
+        order:2;
+        width:50%;
+    }
+
+   
+
+    .intro-text{
+        text-align: left;
+        width:45%;
+    }
+
+    .intro-text p{
+        font-size: 1rem;
+        padding: 3% 0 1%;
+    }
+
+    .get-started-form{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .get-started{
+        display:flex;
+        div{
+            margin-right:15px;
+            position: relative;
+        }
+    }
+
+    .error-message{
+        font-size: 12px;
+        display: none;
+        position: absolute;
+        top: 45px;
+        left:0;
+    }
+
+    .error-message1{
+        font-size:12px;
+        display:none;
+        position:absolute;
+    }
+
+    .email input[type="email"]{
+        width:260px;
+    }
+
+    .btn input[type="submit"]{
+        width:160px;
+        margin-bottom: 0;
+    }
+
+    #middle-section{
+        padding-bottom: 0;
+        padding:9% 0;
+    }
+
+
+    .middle-image{
+        width:40%;
+        padding:0;
+        order:2;
+        margin-top: 40px;
+    }
+
+    .function-text{
+        width: 45%;
+        padding:0;
+    }
+
+    .middle-content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .tagline{
+        font-size: 2rem;
+        text-align: unset;
+    }
+
+    .content-text{
+        padding: 0 20% 0 0;
+    }
+
+    div.docs{
+        display: inline-block;
+        margin:0;
+    }
+
+    div.link-docs{
+        margin: 0 0 20px 0;
+    }
+
+    .content-text P{
+        text-align: left;
+    }
+
+   .function-text .testimonial{
+        width:55%;
+        padding:30px;
+        margin:65px 0 0;
+    }
+
+    div.testimonial-text{
+        margin: 10px 0;
+    }
+
+    .testimonial p{
+        line-height:2;
+    }
+
+    div.profile, div.prof-image,div.profile-status{
+        margin:0;
+    }
+
+    /*bottom section*/
+    .acess{
+        display:flex;
+        text-align: unset;
+        justify-content: space-between;
+        align-items: center;
+        padding:5%;
+    }
+
+    .access-text{
+        width:40%;
+    }
+
+    .email-bttm~div.btn-bttm{
+        margin-top:25px;
+    }
+
+    div.email-bttm{
+        margin-bottom: 3px;
+        width:100%;
+    }
+
+    .signup{
+        width:35%;
+        position: relative;
+    }
+
+    .signup>form{
+        display: block;
+    }
+
+    .btn-bttm{
+        width:60%;
+    }
+
+    div.logo-bottom{
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        padding: 8% 5% 0;
+    }
+
+}
